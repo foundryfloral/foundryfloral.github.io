@@ -41,3 +41,6 @@
 .process{padding-bottom:70px}
 .process li>div{min-width:0}
 @media(max-width:900px){.process{padding-top:70px;padding-bottom:50px}}
+
+/* Pricing: collection note */
+.collections>.collection-note{max-width:1080px;margin:30px auto 0;font-size:17px}
