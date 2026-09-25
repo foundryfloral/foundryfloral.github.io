@@ -36,3 +36,8 @@
 /* Inquiry alternatives beside the embedded form */
 .inquiry>.form-alt{margin-top:14px;font-size:15px;overflow-wrap:anywhere}
 .form-alt a{color:var(--espresso);text-underline-offset:3px}
+
+/* How it works */
+.process{padding-bottom:70px}
+.process li>div{min-width:0}
+@media(max-width:900px){.process{padding-top:70px;padding-bottom:50px}}
