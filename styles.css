@@ -44,3 +44,10 @@
 
 /* Pricing: collection note */
 .collections>.collection-note{max-width:1080px;margin:30px auto 0;font-size:17px}
+
+/* Accessibility polish */
+a:focus-visible,button:focus-visible,iframe:focus-visible{outline:2px solid var(--espresso);outline-offset:3px}
+.button:focus-visible{outline-offset:4px;box-shadow:0 0 0 2px var(--ivory)}
+.skip-link{position:absolute;left:12px;top:-60px;z-index:50;background:var(--espresso);color:var(--ivory);padding:10px 16px;text-decoration:none;font-size:14px}
+.skip-link:focus{top:12px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition-duration:.01ms!important;animation-duration:.01ms!important;animation-iteration-count:1!important}}
